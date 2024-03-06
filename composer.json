@@ -31,20 +31,20 @@
     },
 
     "require": {
-        "php": "^8.2",
-        "doctrine/doctrine-bundle": "^2.5",
-        "doctrine/data-fixtures": "^1.5",
-        "doctrine/orm": "^2.10.0",
-        "doctrine/persistence": "^2.2 || ^3.0",
-        "psr/log": "^1.0 || ^2.0 || ^3.0",
-        "symfony/finder": "^6.4 || ^7.0",
-        "symfony/framework-bundle": "^6.4 || ^7.0",
-        "theofidry/alice-data-fixtures": "^1.5"
+        "php": ">=8.2",
+        "doctrine/doctrine-bundle": "^2.11",
+        "doctrine/data-fixtures": "^1.7",
+        "doctrine/orm": "^3.1",
+        "doctrine/persistence": "^3.3",
+        "psr/log": "^3.0",
+        "symfony/finder": "^7.0",
+        "symfony/framework-bundle": "^7.0",
+        "theofidry/alice-data-fixtures": "^1.7"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
         "phpspec/prophecy": "^1.7",
-        "symfony/phpunit-bridge": "^6.4 || ^7.0",
+        "symfony/phpunit-bridge": "^7.0",
         "phpspec/prophecy-phpunit": "^2.0",
         "monolog/monolog": "^3.5"
     },
